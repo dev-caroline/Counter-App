@@ -1,12 +1,12 @@
 const show = document.getElementById('show')
 let i = 0
 
-const add = ()=>{
+const add = () => {
     i++
     show.innerHTML = i
-} 
+}
 
-const sub = ()=>{
+const sub = () => {
     i--
     show.innerHTML = i
 } 
